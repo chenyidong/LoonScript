@@ -1,0 +1,9 @@
+#!name=milk
+#!desc=APP下载地址:  https://milk.kzk61yo.cn/?qcode=000000  网页版本地址:milk.odhkhke.cn 注册码000000
+ 
+
+[Script]
+http-request ^http[s]?:\/\/ppt.fuaybr.cn\/\/Api\/(getmovexiangqing|getmhepisodesimg).*$ script-path=^https:\/\/ppt.fuaybr.cn\/\/(Api|Milk)\/(getuserinfo|getstartup|getvideotop) url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/milk.js, requires-body=true, tag=milk
+
+[MITM]
+hostname = *fuaybr*
