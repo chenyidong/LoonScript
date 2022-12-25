@@ -1,0 +1,6 @@
+
+[Script]
+http-response http:\/\/qms\.p5p5\.cn\/login\/login\/veifys\.html\?imei=.*?&amp;username=.*?&amp;passwd=.*? script-path=https://raw.githubusercontent.com/gjwj666/qx/main/qms.js, requires-body=true, tag= 秋明山破解版
+
+[MITM]
+hostname = *.p5p5.*
